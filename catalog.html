@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection - Maison Élise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">MAISON ÉLISE</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="catalog.html">Shop</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="catalog">
+  <h1>Signature Collection</h1>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" alt="Bag">
+      <h3>Monogram Handbag</h3>
+      <p>₦450,000</p>
+      <button onclick="addToCart('Monogram Handbag',450000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800&auto=format&fit=crop" alt="Heels">
+      <h3>Velvet Heels</h3>
+      <p>₦220,000</p>
+      <button onclick="addToCart('Velvet Heels',220000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop" alt="Dress">
+      <h3>Silk Evening Dress</h3>
+      <p>₦380,000</p>
+      <button onclick="addToCart('Silk Evening Dress',380000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop" alt="Watch">
+      <h3>Signature Watch</h3>
+      <p>₦600,000</p>
+      <button onclick="addToCart('Signature Watch',600000)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="catalog">
+  <h2>Other Available Products</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop" alt="Scarf">
+      <h3>Cashmere Scarf</h3>
+      <p>₦95,000</p>
+      <button onclick="addToCart('Cashmere Scarf',95000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=800&auto=format&fit=crop" alt="Sunglasses">
+      <h3>Designer Sunglasses</h3>
+      <p>₦140,000</p>
+      <button onclick="addToCart('Designer Sunglasses',140000)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Velours Rouge</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

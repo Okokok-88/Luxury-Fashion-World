@@ -1,0 +1,179 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f7f4ef;
+  color:#111;
+}
+
+.navbar{
+  background:white;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+}
+
+.navbar a{
+  text-decoration:none;
+  color:#111;
+  margin-left:15px;
+}
+
+.hero{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+
+.hero img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.editorial{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  text-align:center;
+  width:80%;
+}
+
+.editorial h1{
+  font-size:60px;
+  margin:10px 0;
+}
+
+.editorial h2{
+  font-size:28px;
+  margin:10px 0;
+}
+
+.about{
+  font-size:18px;
+  line-height:1.6;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 28px;
+  border:1px solid white;
+  color:white;
+  text-decoration:none;
+}
+
+.btn:hover{
+  background:white;
+  color:black;
+}
+
+.catalog{
+  padding:80px 10%;
+}
+
+.catalog h1{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.product{
+  background:white;
+  border-radius:8px;
+  overflow:hidden;
+  text-align:center;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.product img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+}
+
+.product h3{
+  margin:15px 0 5px;
+}
+
+.product p{
+  margin:0 0 15px;
+}
+
+.product button{
+  background:black;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  margin-bottom:20px;
+  cursor:pointer;
+}
+
+.product button:hover{
+  background:#333;
+}
+
+.footer{
+  background:#111;
+  color:#aaa;
+  text-align:center;
+  padding:25px;
+  margin-top:60px;
+}
+
+.contact-page,
+.cart-page,
+.checkout-page{
+  padding:100px 10%;
+}
+
+.contact-form,
+.checkout-form{
+  max-width:500px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.checkout-form input{
+  padding:12px;
+  border:1px solid #ccc;
+}
+
+.contact-form textarea{
+  min-height:120px;
+}
+
+.summary{
+  background:white;
+  padding:20px;
+  border-radius:8px;
+  margin-top:30px;
+}
+
+.payment-page{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.payment-box{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}

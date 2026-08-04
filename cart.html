@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Velours Rouge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">VELOURS ROUGE</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="catalog.html">Shop</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="cart-page">
+  <h1>Your Cart</h1>
+
+  <div id="cart-items"></div>
+
+  <div class="summary">
+    <p>Subtotal: <span id="subtotal">₦0</span></p>
+    <p>Delivery: <span id="delivery">₦5,000</span></p>
+    <h3>Total: <span id="total">₦0</span></h3>
+
+    <button onclick="checkout()" class="btn">
+      Proceed to Checkout
+    </button>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Velours Rouge</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
